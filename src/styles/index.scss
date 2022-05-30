@@ -1,0 +1,21 @@
+.divs{
+    width: 100%;
+    position: relative;
+}
+
+.music-div{
+    height: auto;
+    max-height: 280px;
+    width: 100%;
+    display: flex;
+    align-items: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.inner-body{
+    padding: 60px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+}

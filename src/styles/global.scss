@@ -1,0 +1,33 @@
+:root{
+    --black: #030303;
+    --white: #fff;
+    --gray: #aaa;
+    --darkgray: #7b7b7b; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--black);
+    color: var(--darkgray);
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background: #181818;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #606060;
+}
